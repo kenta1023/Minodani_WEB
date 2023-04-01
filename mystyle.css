@@ -1,0 +1,20 @@
+@charset "UTF-8";
+body { background:#c5e7c5; color: black; margin-left: 5%; margin-right: 5%;margin-top: 5%;}
+h1 { background:greenyellow; color:black;  }
+h2 { background-color: chartreuse; color:black; }
+a:visited { color:magenta; }
+a:hover { color:darkorange; }
+p.img { text-align:left; }
+section.main { background: #F0FFF0; width: 60%; padding: 1% 5%; float:left;}
+section.side { background:#F0FFF0;  width: 25%; padding: 1% 2%; float:right;}
+.google{position:relative; height:0; padding-bottom:56.25%; /* 縦横比の指定 */ overflow:hidden;}
+.google iframe,
+.google object,
+.google embed{position:absolute; top:0; left:0; width:80%; height:80%;}
+
+@media screen and (max-width: 570px){
+    body { background:#c5e7c5; color: black; width: 95%; margin-left: 3%; margin-right: 3%; margin-top: 5%;}
+    section.main { background: #F0FFF0; width: 90%;}
+    section.side{display:none;}
+}
+/*<link rel="stylesheet" href='mystyle.css' type="text/css"> をヘッドにペースト*/
